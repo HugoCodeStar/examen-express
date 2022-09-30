@@ -1,18 +1,27 @@
-# Examen final Express et React
+# Final Express - Création d'une application Express
 
-## Instructions
+Ce projet a pour but de vous faire construire une application Express
+avec des routes de bases et des routes avec paramètres.
 
-L'examen final est la création de deux projets distincts :
+# But
 
-* Une application React
-* Un API avec un serveur Express
+Vous devez créer une application qui a les ressources suivantes :
 
-Vous trouverez deux dossiers avec leur README dans leurs dossiers respectifs avec les descriptions de chaque application.
+* GET /quotes/count - Retourne le nombre de citations courantes.
+* GET /quotes/NOM AUTEUR - retourne une citation du NOM AUTEUR
+  * Exemple : GET /quotes/Albert Einstein retourne une citation d'Albert Einstein
 
-**NOTE** Les deux applications travaillent avec les quotes.json mais ne communiquent pas entre elles. Chaque projet est indépendant l'un de l'autre.
+# Élément fourni
+
+* Le fichier quotes.json des citations. 
+
+# Requis technique
+
+* L'application Express n'est pas fournie, c'est à vous de l'installer avec le express-generator.
+* Si un auteur a plusieurs citation, vous pouvez retourner une ou plusieurs de ses citations.
 
 # Remise
 
-La remise se fait par Léa, vous devez seulement remmetre le app.js et le App.js de vos application Express et React.
+La remise se fait par Léa, vous devez seulement remmetre le app.js de vos application Express.
 
 Bonne chance!
