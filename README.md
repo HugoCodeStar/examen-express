@@ -17,7 +17,7 @@ Vous devez créer une application qui a les ressources suivantes :
 
 # Requis technique
 
-* L'application Express n'est pas fournie, c'est à vous de l'installer avec le express-generator.
+* L'application Express n'est pas fournie, c'est à vous faire le projet.
 * Si un auteur a plusieurs citation, vous pouvez retourner une ou plusieurs de ses citations.
 
 # Remise
